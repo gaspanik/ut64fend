@@ -6,6 +6,7 @@
 
 1. Clone this repository
 2. Vagrant up
+3. Vagrant ssh or Open [http://192.168.33.100](http://192.168.33.100) ([http://localhost:8080](http://localhost:8080))
 
 ## Update softwares
 
