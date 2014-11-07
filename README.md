@@ -38,5 +38,6 @@ $ gem update
 
 * Box root passwd: vagrant
 * MySQL password: root/root
+* PHP info: [http://192.168.33.100/info.php](http://192.168.33.100/info.php)
 
 Connect to MySQL and MongoDB w/ SSH（Host: 192.168.33.100, id: vagrant, password: vagrant）.
