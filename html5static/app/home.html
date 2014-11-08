@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Superstatic Home</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <h1>Superstatic</h1>
+      <p class="lead">Superstatic is an enhanced static web server.</p>
+      <p>Not required Apache virtual host configution :)</p>
+      <hr>
+      <h2>Options</h2>
+      <p>Superstatic reads special configuration from a JSON file (either superstatic.json or divshot.json by default, configurable with -c).</p>
+<pre class="panel"><code>{
+  "name": "app-name",
+  "root": "./app",
+  "routes": {
+    "/": "start.html"
+  },
+  "clean_urls": false,
+  "error_page": "error.html",
+  "cache_control": {
+    "/*": false,
+    "**/*.html": 600
+  }
+}</code></pre>
+      <p><span class="label label-default">More info.</span> See <a href="http://superstatic.org/#configuration">Superstatic Configuration</a>.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

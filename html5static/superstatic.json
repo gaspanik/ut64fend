@@ -1,0 +1,20 @@
+{
+  "name": "html5static",
+  "root": "./app",
+  "routes": {
+    "/": "start.html",
+    "/index": "home.html"
+  },
+  "clean_urls": true,
+  "error_page": "error.html",
+  "cache_control": {
+    "/*": false,
+    "**/*.html": 600,
+    "private/**": "private, max-age=1200"
+  },
+  "headers": {
+    "/*": {
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
