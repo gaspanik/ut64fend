@@ -1,6 +1,6 @@
 # UT64-fend
 
-[protean/UT64-fend](https://vagrantcloud.com/protean/boxes/UT64-fend) is a standard Ubuntu 14.04 box with LAMP and some helpful programs for Front-End Developers.
+[protean/UT64-fend](https://vagrantcloud.com/protean/boxes/UT64-fend) is a standard Ubuntu 14.04 box with LAMP/MxxN stack and some helpful programs for front-end developers.
 
 ---
 
