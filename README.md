@@ -2,6 +2,14 @@
 
 [protean/UT64-fend](https://vagrantcloud.com/protean/boxes/UT64-fend) is a standard Ubuntu 14.04 box with LAMP and some helpful programs for Front-End Developers.
 
+---
+
+## Changelog
+
+Update Vagrantfile.
+
+* Fixed synced_folder permission issue. :smiley:
+
 ## Changelog(Box)
 
 Ver. 0.2.0: Add ngrok and JSON Server.
@@ -15,6 +23,7 @@ $ vagrant box outdated
 > Checking if box 'protean/UT64-fend' is up to date...  
 > A newer version of the box 'protean/UT64-fend' is available! You currently have version '0.1.0'. The latest is version '0.2.0'. Run `vagrant box update` to update.
 
+---
 
 ## Usage
 
