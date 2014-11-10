@@ -12,6 +12,7 @@ Update Vagrantfile.
 
 ## Changelog(Box)
 
+Ver. 0.3.0: Add Composer (Laravel Installer and WP-CLI ready) and some npm modules (broccoli-cli: 0.0.1, grunt-cli: 0.1.13, uglify-js: 2.4.15). Modify apache2 `/var/www` AllowOverride option.
 Ver. 0.2.0: Add ngrok and JSON Server.
 
 If you already installed this box, run `vagrant box outdated`.
@@ -21,7 +22,11 @@ $ vagrant box outdated
 ```
 
 > Checking if box 'protean/UT64-fend' is up to date...  
-> A newer version of the box 'protean/UT64-fend' is available! You currently have version '0.1.0'. The latest is version '0.2.0'. Run `vagrant box update` to update.
+> A newer version of the box 'protean/UT64-fend' is available! You currently have version '0.2.0'. The latest is version '0.3.0'. Run `vagrant box update` to update.
+
+```
+$ vagrant box update
+```
 
 ---
 
