@@ -12,7 +12,7 @@ Update Vagrantfile.
 
 ## Changelog(Box)
 
-Ver. 0.3.0: Add Composer (Laravel Installer and WP-CLI ready) and some npm modules (broccoli-cli: 0.0.1, grunt-cli: 0.1.13, uglify-js: 2.4.15). Modify apache2 `/var/www` AllowOverride option.
+Ver. 0.3.0: Add Composer (Laravel Installer and WP-CLI ready) and some npm modules (broccoli-cli: 0.0.1, grunt-cli: 0.1.13, uglify-js: 2.4.15). Modify apache2 `/var/www` AllowOverride option.  
 Ver. 0.2.0: Add ngrok and JSON Server.
 
 If you already installed this box, run `vagrant box outdated`.
