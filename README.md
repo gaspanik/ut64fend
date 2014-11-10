@@ -1,6 +1,6 @@
 # UT64-fend
 
-[protean/UT64-fend](https://vagrantcloud.com/protean/boxes/UT64-fend) is a standard Ubuntu 14.04 box with LAMP/MxxN stack and some helpful programs for front-end developers.
+[protean/UT64-fend](https://vagrantcloud.com/protean/boxes/UT64-fend) is a standard Ubuntu 14.04 box with LAMP(Laravel and WP-CLI ready), NodeJS, MongoDB, Redis, Ruby(rbenv), Git and some helpful programs for front-end developers.
 
 ---
 
@@ -12,7 +12,7 @@ Update Vagrantfile.
 
 ## Changelog(Box)
 
-Ver. 0.3.0: Add Composer (Laravel Installer and WP-CLI ready) and some npm modules (broccoli-cli: 0.0.1, grunt-cli: 0.1.13, uglify-js: 2.4.15). Modify apache2 `/var/www` AllowOverride option.  
+Ver. 0.3.1: Add Composer (Laravel Installer and WP-CLI ready) and some npm modules (broccoli-cli: 0.0.1, grunt-cli: 0.1.13, uglify-js: 2.4.15). Modify apache2 `/var/www` AllowOverride option.  
 Ver. 0.2.0: Add ngrok and JSON Server.
 
 If you already installed this box, run `vagrant box outdated`.
@@ -22,7 +22,7 @@ $ vagrant box outdated
 ```
 
 > Checking if box 'protean/UT64-fend' is up to date...  
-> A newer version of the box 'protean/UT64-fend' is available! You currently have version '0.2.0'. The latest is version '0.3.0'. Run `vagrant box update` to update.
+> A newer version of the box 'protean/UT64-fend' is available! You currently have version '0.2.0'. The latest is version '0.3.1'. Run `vagrant box update` to update.
 
 ```
 $ vagrant box update
@@ -35,6 +35,7 @@ $ vagrant box update
 1. Clone this repository
 2. Vagrant up
 3. Vagrant ssh or Open [http://192.168.33.100](http://192.168.33.100) ([http://localhost:8080](http://localhost:8080))
+
 
 ## Update softwares
 
@@ -60,6 +61,19 @@ rbenv ready. rbenv-rehash is already installed.
 
 ```
 $ gem update
+```
+
+### composer
+
+```
+$ composer selfupdate
+```
+
+### Laravel and WP-CLI (via Composer)
+
+```
+$ cd ~/.composer
+$ composer update
 ```
 
 ## Box info.
