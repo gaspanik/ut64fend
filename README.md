@@ -12,9 +12,9 @@ Update Vagrantfile.
 
 ## Changelog(Box)
 
-Ver. 0.4.0: Remove Laravel Installer. Add jspm(0.8.4) and fixed ngrok web interface loopback address issue.
-Ver. 0.3.1: Add Composer (WP-CLI ready) and some npm modules (broccoli-cli: 0.0.1, grunt-cli: 0.1.13, uglify-js: 2.4.15). Modify apache2 `/var/www` AllowOverride option.  
-Ver. 0.2.0: Add ngrok and JSON Server.
+* Ver. 0.4.0: Remove Laravel Installer. Add jspm(0.8.4) and fixed ngrok web interface loopback address issue.
+* Ver. 0.3.1: Add Composer (WP-CLI ready) and some npm modules. Modify apache2 `/var/www` AllowOverride option.  
+* Ver. 0.2.0: Add ngrok and JSON Server.
 
 If you already installed this box, run `vagrant box outdated`.
 
