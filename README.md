@@ -1,6 +1,6 @@
 # UT64-fend
 
-[protean/UT64-fend](https://vagrantcloud.com/protean/boxes/UT64-fend) is a standard Ubuntu 14.04 box with LAMP(Laravel and WP-CLI ready), NodeJS, MongoDB, Redis, Ruby(rbenv), Git and some helpful programs for front-end developers.
+[protean/UT64-fend](https://vagrantcloud.com/protean/boxes/UT64-fend) is a standard Ubuntu 14.04 box with LAMP(WP-CLI ready), NodeJS, MongoDB, Redis, Ruby(rbenv), Git and some helpful programs for front-end developers.
 
 ---
 
@@ -69,7 +69,7 @@ $ gem update
 $ composer selfupdate
 ```
 
-### Laravel and WP-CLI (via Composer)
+### WP-CLI (via Composer)
 
 ```
 $ cd ~/.composer
