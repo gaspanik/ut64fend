@@ -24,7 +24,7 @@ $ vagrant box outdated
 ```
 
 > Checking if box 'protean/UT64-fend' is up to date...  
-> A newer version of the box 'protean/UT64-fend' is available! You currently have version '0.3.2'. The latest is version '0.4.0'. Run `vagrant box update` to update.
+> A newer version of the box 'protean/UT64-fend' is available! You currently have version '0.4.0'. The latest is version '1.0.0'. Run `vagrant box update` to update.
 
 ```
 $ vagrant box update
