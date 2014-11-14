@@ -12,6 +12,7 @@ Update Vagrantfile.
 
 ## Changelog(Box)
 
+* Ver. 1.0.0: Box size optimized.
 * Ver. 0.4.0: Remove Laravel Installer. Add jspm(0.8.4) and fixed ngrok web interface loopback address issue.
 * Ver. 0.3.1: Add Composer (WP-CLI ready) and some npm modules. Modify apache2 `/var/www` AllowOverride option.  
 * Ver. 0.2.0: Add ngrok and JSON Server.
